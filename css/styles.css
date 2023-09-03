@@ -243,6 +243,16 @@ button {
 
 }
 
+.strategies-item-thumb {
+    padding: 24px 100px;
+    margin-bottom: 8px;
+
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+
+    background: #F4F4FD;
+}
+
 .strategies-item {
     width: calc((100% - 72px) / 4);
 }
