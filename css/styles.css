@@ -69,7 +69,7 @@ button {
     overflow: hidden;
   }
 
-/*  ----------- HEADER -----------*/
+/*  ==================== HEADER ====================*/
 
 .header {
     border-bottom: 1px solid #e7e9fc
@@ -173,26 +173,26 @@ button {
     color: #404bbf;
 }
 
-/*  ----------- MAIN -----------*/
+/*  ==================== MAIN ====================*/
 
-/* --- Hero --- */
-
-.hero-section {
-    padding: 188px 0;
-
-    background-color: #2e2f42;
-}
-
+/* ========== Hero ========== */
 .hero-section-container {
-    display: flex;
-    flex-direction: column;
-    gap: 48px;
+    padding: 188px;
+    display: block;
     margin: 0 auto;
+
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.70), 
+        rgba(46, 47, 66, 0.70)), 
+        url(/images/people-office.jpg);
+    background-size: cover;
 }
 
 .hero-section-headline {
     max-width: 496px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 
     color: var(--light-text-color);
 
@@ -226,7 +226,7 @@ button {
     background-color: #404BBF;
 }
 
-/* --- Our strategies --- */
+/* ========== Our strategies ========== */
 
 .strategies { 
     display: flex;
@@ -267,7 +267,7 @@ button {
     letter-spacing: 0.02em;
 }
 
-/* --- Our team --- */
+/* ========== Our team ========== */
 
 .team {
     padding: 120px 0;
@@ -335,7 +335,7 @@ button {
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
 }
-/* --- Our Portfolio --- */
+/* ========== Our Portfolio ========== */
 
 .portfolio {
     padding-top: 120px;
@@ -390,7 +390,7 @@ button {
     letter-spacing: 0.02em;
 }
 
-/* --- FOOTER --- */
+/* ========== FOOTER ========== */
 
 .footer {
     padding: 100px 0;
