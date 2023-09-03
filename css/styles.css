@@ -220,6 +220,8 @@ button {
     font-weight: 500;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.04em;
+
+    transition: background-color 250ms;
 }
 
 .hero-section-button:hover, .hero-section-button:focus {
@@ -359,8 +361,15 @@ button {
     align-items: center;
     width: 40px;
     height: 40px;
+
     background-color: #4D5AE5;
     border-radius: 50%;
+
+    transition: background-color 250ms;
+}
+
+.team-item-thumb:hover, .team-item-thumb:focus {
+    background-color: #404BBF;
 }
 /* ========== Our Portfolio ========== */
 
@@ -390,6 +399,37 @@ button {
     box-sizing: border-box;
     object-fit: cover;
 }
+
+.portfolio-item-thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-item-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 40px 32px;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
+
+    color: #F4F4FD;
+    background-color: #4D5AE5;
+
+    transform: translateY(100%);
+    transition: transform 250ms;
+}
+
+.portfolio-item-thumb:hover .portfolio-item-overlay, 
+.portfolio-item-thumb:focus .portfolio-item-overlay{
+    transform: translateY(0%);
+}
+
 
 .portfolio-item-container {
     padding: 32px 16px;
@@ -482,8 +522,13 @@ button {
     align-items: center;
     width: 40px;
     height: 40px;
+
     background-color: #4D5AE5;
     border-radius: 50%;
+
+    transition: background-color 250ms;
 }
 
-
+.footer-item-thumb:hover, .footer-item-thumb:focus{
+    background-color: #31D0AA;
+}
