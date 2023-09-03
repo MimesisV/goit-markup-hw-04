@@ -509,8 +509,11 @@ button {
 
 .footer-container {
     display: flex;
-    gap: 120px;
     margin: 0 auto;
+}
+
+.footer-info {
+    margin-right: 120px;
 }
 
 .footer-logo {
@@ -555,6 +558,7 @@ button {
 
 .footer-item-soc-container {
     display: flex;
+    align-items: baseline;
     gap: 16px;
 }
 
